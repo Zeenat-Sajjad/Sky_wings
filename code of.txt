@@ -1,0 +1,104 @@
+/*text overlay of 2nd image */
+  .text2img {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .text3img{
+    color: rgb(83, 21, 21);
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+  }
+
+  .text4img {
+    color: rgb(5, 5, 5);
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+
+  }
+  .details-text:hover .overlay {
+    height: 50%;
+   
+  }
+  .details-text:hover .overlay3 {
+    height: 50%;
+    left: 0;
+   
+  }
+  .details-text:hover .overlay4 {
+    height: 50%;
+  
+  }
+  .details-text
+{
+    align-items: center;
+    position: relative;
+    width: 80%;
+}
+-------------------------------------------------------------------------------------
+_____________________________________________________________________________________
+html code:
+
+<div class="details-text">
+    <div class = 2nd-image>
+<img src="airport1.jpg" alt="2nd-image" class="im2" >
+<div class="overlay">
+    <div class="text2img"> "Embark on a journey of luxury and comfort with SkyWings Airlines!
+         Our state-of-the-art planes redefine air travel, ensuring a seamless experience with unparalleled service. 
+         Discover the skies with <b>SkyWings</b>  – where every flight is a soaring adventure!" </div>
+  </div>
+    </div>
+<hr>
+
+    <div class="yrr3"   >
+    <div class = 3rd-image>
+        <img src="waiting.jpg" alt="3rd-image" class="im3" >
+        <div class="overlay3">
+            <div class="text3img"> "Relax and unwind in the soothing embrace of SkyWings' airport waiting areas.
+                 Immerse yourself in comfort as you await your journey, 
+                 surrounded by a tranquil ambiance and attentive service. 
+                 Elevate your pre-flight experience with  <b>SkyWings</b> Airlines
+                  –where comfort knows no bounds." </div>
+          </div>
+            </div></div>
+
+<hr>
+
+            <div class="yrr4"   >
+            <div class = 4th-image>
+            <img src="interior.jpg" alt="4th-image" class="im4" >
+            <div class="overlay4">
+            <div class="text4img"> "Indulge in opulence above the clouds with SkyWings'
+            luxurious plane interiors. Our cabins exude sophistication,
+             offering an ambiance of tranquility and elegance. 
+             Elevate your travel experience and savor the high-altitude luxury with <b>SkyWings</b> Airlines."
+
+
+
+
+
+                    </div>
+                  </div>
+                    </div> </div>
+
+
+
+</div>

@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+  
+  .navbar {
+    overflow: hidden;
+    background-color: black;
+  }
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .navbar a {
+    float: left;
+    padding-left: 30px;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .material-icons{
+    color: white;
+  }
+
+  .navbar a:hover {
+    background-color: black;
+            color: white;}
+  
+    .nav {
+        overflow: hidden;
+        background-color: white;
+      }
+      
+      .nav a {
+        padding-left: 60px;
+        float: left;
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      .nav a:hover {
+        background-color: black;
+        color: #ddd;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #745f5f60; 
+  }
+  
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  
+  .center-text {
+    text-align: center; /* Horizontal centering */
+    line-height: 100vh; /* Vertical centering (assuming full viewport height) */
+  }
+  .container-footer {
+    overflow: hidden;
+    background-color: #333;
+    padding-top: 20px;
+    width: 1090px;
+    display: flex;}
+    
+  .footer {
+    flex: 1;
+    margin: 10px;
+    color: #f2f2f2;
+    text-align: left;
+  }
+  .footer a {
+    display: block;
+    color: #f2f2f2;
+    
+  }
+  .log{
+    overflow: hidden;
+    background-color: #333;
+    padding-top: 20px;
+    width: 1090px;
+    display: flex;
+    
+  }
+  .modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    z-index: 1;
+}
+
+/* Style for the close button */
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
